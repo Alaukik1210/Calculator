@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow: hidden;
+}
+
+.full-page {
+  background: rgb(9, 8, 8);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainscreen {
+  background: #000000;
+  /* padding: 22px; */
+  border-radius: 20px;
+  color: rgb(247, 80, 9);
+  border: 1px solid white;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+input {
+
+  background: rgb(0, 0, 0);
+  height: 8rem;
+  max-width: 350px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 2.5rem;
+  border: #000000;
+  
+ 
+ 
+}
+
+.btns {
+ 
+  padding: 15px;
+}
+
+.btns button {
+  font-size: xx-large;
+  padding: 15px;
+  border: 1px solid rgb(15, 15, 15);
+  border-radius: 50%;
+  margin: 7px;
+  height: 80px;
+  width: 80px;
+  color: #ffffff;
+  background-color: black;
+  cursor: pointer;
+}
+.btns button:hover {
+  background: rgb(95, 94, 94);
+}
+
+@media (max-width: 395px) {
+  .mainscreen{
+    width: 320px;
+    
+  }
+  .btns button{
+    height: 50px;
+  width: 50px;
+  font-size: large;
+  }
+input{
+  width: 250px;
+  font-size: 1.6rem;
+}
+
+  
+}
+
+@media (max-width: 420px) {
+  .mainscreen{
+    width: 320px;
+    
+  }
+  .btns button{
+    height: 50px;
+  width: 50px;
+  font-size: large;
+  }
+input{
+  width: 250px;
+  font-size: 1.6rem;
+}
+
+  
+}
